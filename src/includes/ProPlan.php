@@ -1,6 +1,6 @@
 <?php
     namespace App\includes;
-    class ProPlan extends User {
+    class ProPlan implements Plan {
         public function subscribe($obj)
         {
             print "Action: Subcsribing to Plan Pro Plan";

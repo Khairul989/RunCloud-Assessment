@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\includes\\BasicPlan' => $baseDir . '/src/includes/BasicPlan.php',
+    'App\\includes\\Plan' => $baseDir . '/src/includes/Plan.php',
     'App\\includes\\ProPlan' => $baseDir . '/src/includes/ProPlan.php',
     'App\\includes\\Server' => $baseDir . '/src/includes/Server.php',
     'App\\includes\\User' => $baseDir . '/src/includes/User.php',

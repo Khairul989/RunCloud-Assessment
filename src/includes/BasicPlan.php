@@ -1,6 +1,6 @@
 <?php
 namespace App\includes;
-class BasicPlan extends User {
+class BasicPlan implements Plan {
         public function subscribe($obj)
         {
             print "Action: Subcsribing to Plan Basic Plan";
